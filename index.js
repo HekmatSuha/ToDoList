@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 
-mongoose.connect("mongodb+srv://hekmat:Hekmat.1234@cluster0.dqg1j.mongodb.net/Cluster0?retryWrites=true&w=majority",{useNewUrlParser: true , useUnifiedTopology : true});
+mongoose.connect("mongodb+srv://hekmatsuha:gQBUyTrz9mqGPaX0@cluster0.dqg1j.mongodb.net/Cluster0?retryWrites=true&w=majority",{useNewUrlParser: true , useUnifiedTopology : true});
 
 var yapilacakListesi = new Schema(
     {
@@ -95,5 +95,5 @@ if (port== "" || port == null) {
 }
 
 app.listen(port,function(){
-  console.log("port number : " + port);
+  console.log("port number1 : " + port);
 });
