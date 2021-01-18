@@ -95,5 +95,5 @@ if (port== "" || port == null) {
 }
 
 app.listen(port,function(){
-  console.log("port numarasi : " + port);
+  console.log("port number : " + port);
 });
